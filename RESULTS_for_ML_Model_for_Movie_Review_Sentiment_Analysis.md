@@ -11,12 +11,12 @@ The predictions calculated in the TEST SET (remaining 20% of the data) presented
     ACCURACY SCORE 0.825
 
 
-3) Stochastic Gradient Descent
+3) Stochastic Gradient Descent (SGD)
 
     ACCURACY SCORE 0.8275
 
 
-PS: I applied GridSearchCV on the pipeline and the best parameters found were:
+PS: For SGD it was applied GridSearchCV on the pipeline and the best parameters found were:
     clf__alpha: 0.001
     clf__penalty: l2
     tfidf__use_idf: False
