@@ -1,4 +1,4 @@
-The model was trained in 80% of the data and the results found are presented below:
+# The model was trained in 80% of the data and the results found are presented below:
 
 1) Multinomial Naive Bayes:
     ACCURACY SCORE 0.805
