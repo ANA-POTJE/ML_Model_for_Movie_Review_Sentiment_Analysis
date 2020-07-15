@@ -1,4 +1,5 @@
-The model was trained in 80% of the data and the results found are presented below:
+The model was trained in 80% of the data.
+The predictions calculated in the TEST SET (remaining 20% of the data) presented the Accuracy Score shown below:
 
 1) Multinomial Naive Bayes:
 
