@@ -3,8 +3,8 @@ ML model to predict positive or negative movie reviews, based on the polarity da
 NLP sentiment analysis project based on the "polarity dataset v2.0" (data source extracted from http://www.cs.cornell.edu/people/pabo/movie-review-data/).
 The data set contains 2000 movie review "txt" files (1000 positive and 1000 negative reviews).
 
-Author: Ana Beatriz Potje
-Date: 15/07/2020
+# Author: Ana Beatriz Potje
+# Date: 15/07/2020
 
 review_polarity.tar.GZ : dataset used for model building.
 Movie_Review_2000_files.ipynb: the jupyter notebook containing code.
