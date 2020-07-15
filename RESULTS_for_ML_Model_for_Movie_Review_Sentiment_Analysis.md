@@ -1,12 +1,12 @@
-The model was trained in 80% of the data and the results found are presented below:
+# The model was trained in 80% of the data and the results found are presented below:
 
-1) Multinomial Naive Bayes:
+# 1) Multinomial Naive Bayes:
     ACCURACY SCORE 0.805
 
-2) Linear Support Vector Classification 
+# 2) Linear Support Vector Classification 
     ACCURACY SCORE 0.825
 
-3) Stochastic Gradient Descent
+# 3) Stochastic Gradient Descent
     ACCURACY SCORE 0.8275
 
 PS: I applied GridSearchCV on the pipeline and the best parameters found were:
