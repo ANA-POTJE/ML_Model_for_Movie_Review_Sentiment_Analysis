@@ -27,10 +27,11 @@ For the feature extraction we used:
    - TfidfTransformer (Scikit-learn) to re-balance the counts according with size of reviews / number of occurrences (TF-IDF).<br />
 
 The classifier was trained using three different Scikit-learn models, so results could be compared to define the best one:<br />
+<br />
    1- Multinomial Naive Bayes classifier (MultinomialNB from Scikit-learn),<br />
    2- Linear Support Vector Classification (LinearSVC from Scikit-learn) and <br />
    3- Stochastic Gradient Descent (SGDClassifier from Scikit-learn).<br />
-      (Hyperparameters for SGD were tuned using GridSearchCV from Scikit-learn) <br />
+        (Hyperparameters for SGD were tuned using GridSearchCV from Scikit-learn) <br />
 
 Finally, a Pipeline was used in each of the models for Feature extraction and Training steps (Pipeline from Scikit-learn).
 
