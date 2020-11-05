@@ -51,7 +51,7 @@ The model was trained in 80% of the data. The predictions calculated in the TEST
 
       ACCURACY SCORE 0.825
 
-## Stochastic Gradient Descent (SGD) (BEST MODEL):<br />
+## Stochastic Gradient Descent (SGD) - BEST MODEL:<br />
 
       ACCURACY SCORE 0.8275
 
