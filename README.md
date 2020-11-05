@@ -32,10 +32,11 @@ The classifier was trained using three different Scikit-learn models, so results
    - Stochastic Gradient Descent (SGDClassifier from Scikit-learn).<br />
      (Hyperparameters for SGD were tuned using GridSearchCV from Scikit-learn) <br />
 
-A PIPELINE was used for Feature extraction and Training steps (Pipeline from Scikit-learn).
+Finally, a Pipeline was used in each of the models for Feature extraction and Training steps (Pipeline from Scikit-learn).
 
 # STEP 4: Evaluating the classifier
-To evaluate the model we used Accuracy_score and Confusion_matrix metrics, both from the Scikit-learn library.<br />
+To evaluate each of the three models we used Accuracy_score and Confusion_matrix metrics, both from the Scikit-learn library.<br />
+The results are presented below ... <br />
 <br />
 
 # Results:
