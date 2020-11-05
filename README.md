@@ -1,4 +1,4 @@
-# ML_Model_for_Movie_Review_Sentiment_Analysis
+# ML_Model_for_Movie_Reviews
 
 Author: Ana Beatriz Potje
 
