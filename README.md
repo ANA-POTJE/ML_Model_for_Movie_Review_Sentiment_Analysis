@@ -32,7 +32,7 @@ A PIPELINE was used for Feature extraction and Training steps (Pipeline from Sci
 # STEP 4: Evaluating the classifier
 To evaluate the model we used Accuracy_score and Confusion_matrix metrics, both from the Scikit-learn library.<br />
 
-PS1: These other models below were also used in STEP 3:<br />
+PS1: These other models below were also used in STEP 3, so we could compare the results to evaluate the best model:<br />
    -  Linear Support Vector Classification (LinearSVC from Scikit-learn) and <br />
    -  Stochastic Gradient Descent (SGDClassifier from Scikit-learn)<br />
 
@@ -51,8 +51,12 @@ The model was trained in 80% of the data. The predictions calculated in the TEST
 
       ACCURACY SCORE 0.825
 
-## Stochastic Gradient Descent (SGD):<br />
+## Stochastic Gradient Descent (SGD) (BEST MODEL):<br />
 
       ACCURACY SCORE 0.8275
 
-PS: For SGD it was applied GridSearchCV on the pipeline and the best parameters found were: clf__alpha: 0.001 clf__penalty: l2 tfidf__use_idf: False vect__ngram_range: (1, 1)
+PS: For SGD it was applied GridSearchCV on the pipeline and the best parameters found were: 
+  - clf__alpha: 0.001  <br />
+  - clf__penalty: l2  <br />
+  - tfidf__use_idf: False  <br />
+  - vect__ngram_range: (1, 1) <br />
