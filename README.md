@@ -25,6 +25,7 @@ Created a customized function called "spacy_tokenizer" using the SPACY library. 
 For the feature extraction we used:
    - CountVectorizer (Scikit-learn) to count the frequency that words occurs in the text (BAG OF WORDS).
    - TfidfTransformer (Scikit-learn) to re-balance the counts according with size of reviews / number of occurrences (TF-IDF).<br />
+
 Finally the model was trained using Multinomial Naive Bayes classifier (MultinomialNB from Scikit-learn).<br />
 A PIPELINE was used for Feature extraction and Training steps (Pipeline from Scikit-learn).
 
@@ -32,8 +33,8 @@ A PIPELINE was used for Feature extraction and Training steps (Pipeline from Sci
 To evaluate the model we used Accuracy_score and Confusion_matrix metrics, both from the Scikit-learn library.<br />
 
 PS1: These other models below were also used in STEP 3:<br />
-     Linear Support Vector Classification (LinearSVC from Scikit-learn) and <br />
-     Stochastic Gradient Descent (SGDClassifier from Scikit-learn)<br />
+   -  Linear Support Vector Classification (LinearSVC from Scikit-learn) and <br />
+   -  Stochastic Gradient Descent (SGDClassifier from Scikit-learn)<br />
 
 PS2: HYPERPARAMETERS for SGD were tuned using GridSearchCV from Scikit-learn.
 
