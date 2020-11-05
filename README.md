@@ -29,14 +29,14 @@ For the feature extraction we used:
 Finally the model was trained using Multinomial Naive Bayes classifier (MultinomialNB from Scikit-learn).<br />
 A PIPELINE was used for Feature extraction and Training steps (Pipeline from Scikit-learn).
 
-# STEP 4: Evaluating the classifier
-To evaluate the model we used Accuracy_score and Confusion_matrix metrics, both from the Scikit-learn library.<br />
-
 PS1: These other models below were also used in STEP 3, so we could compare the results to evaluate the best model:<br />
    -  Linear Support Vector Classification (LinearSVC from Scikit-learn) and <br />
    -  Stochastic Gradient Descent (SGDClassifier from Scikit-learn)<br />
 
 PS2: HYPERPARAMETERS for SGD were tuned using GridSearchCV from Scikit-learn.
+
+# STEP 4: Evaluating the classifier
+To evaluate the model we used Accuracy_score and Confusion_matrix metrics, both from the Scikit-learn library.<br />
 
 <br />
 
