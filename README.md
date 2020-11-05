@@ -35,8 +35,7 @@ The classifier was trained using three different Scikit-learn models, so results
 Finally, a Pipeline was used in each of the models for Feature extraction and Training steps (Pipeline from Scikit-learn).
 
 # STEP 4: Evaluating the classifier
-To evaluate each of the three models we used Accuracy_score and Confusion_matrix metrics, both from the Scikit-learn library.<br />
-The results are presented below ... <br />
+To evaluate each of the three models we used Accuracy_score and Confusion_matrix metrics, both from the Scikit-learn library. The results are presented below. <br />
 <br />
 
 # Results:
