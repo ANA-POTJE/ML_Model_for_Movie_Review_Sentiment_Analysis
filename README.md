@@ -36,3 +36,22 @@ PS1: These other models below were also used in STEP 3:
      Stochastic Gradient Descent (SGDClassifier from Scikit-learn)
 
 PS2: HYPERPARAMETERS for SGD were tuned using GridSearchCV from Scikit-learn.
+
+<br />
+
+# Results:
+The model was trained in 80% of the data. The predictions calculated in the TEST SET (remaining 20% of the data) presented the Accuracy Score shown below:
+
+## Multinomial Naive Bayes:
+
+      ACCURACY SCORE 0.805
+
+## Linear Support Vector Classification:
+
+      ACCURACY SCORE 0.825
+
+## Stochastic Gradient Descent (SGD):<br />
+
+      ACCURACY SCORE 0.8275
+
+PS: For SGD it was applied GridSearchCV on the pipeline and the best parameters found were: clf__alpha: 0.001 clf__penalty: l2 tfidf__use_idf: False vect__ngram_range: (1, 1)
